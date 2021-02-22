@@ -1,3 +1,3 @@
 # Index
 
-[Read more ...](https://hrshojaie.github.io/about)
+[Read more ...](https://hrshojaie.github.io/about.html)
