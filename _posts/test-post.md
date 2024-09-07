@@ -1,7 +1,7 @@
 ---
 title: This is for test
 description: Short summary of the post.
-date: 2024-09-07 19:43:00 +03.50
+date: 2024-09-07 19:43:00 +0350
 categories: [Animal, Insect]
 tags: [bee]
 ---
