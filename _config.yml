@@ -16,7 +16,7 @@ timezone:
 
 title: Mazdak # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: hi, this is m@zd@k # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -26,23 +26,23 @@ description: >- # used by seo meta and the atom feed
 url: ""
 
 github:
-  username: github_username # change to your GitHub username
+  username: hrsh # change to your GitHub username
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: hrshojaie # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Mazdak Shojaie
+  email: hrshojaie@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    - https://twitter.com/hrshojaie # change to your Twitter homepage
+    - https://github.com/hrsh # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/mazdak-shojaie
 
 # Site Verification Settings
 webmaster_verifications:
@@ -75,7 +75,7 @@ analytics:
 
 # Page views settings
 pageviews:
-  provider: # now only supports 'goatcounter'
+  provider: https://mazdak.goatcounter.com/
 
 # Prefer color scheme setting.
 #
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://gravatar.com/mazdakshojaie
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -119,8 +119,8 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
+    repo: hrsh/hrsh.github.io # <gh-username>/<repo>
+    repo_id: 54607550
     category:
     category_id:
     mapping: # optional, default to 'pathname'
@@ -147,10 +147,10 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 10
+paginate: 20
 
 # The base URL of your site
-baseurl: ""
+baseurl: "https://hrsh.github.io"
 
 # ------------ The following options are not recommended to be modified ------------------
 
