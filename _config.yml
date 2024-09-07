@@ -42,7 +42,7 @@ social:
     - https://github.com/hrsh # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/mazdak-shojaie
+    # - https://www.linkedin.com/in/username
 
 # Site Verification Settings
 webmaster_verifications:
@@ -75,7 +75,7 @@ analytics:
 
 # Page views settings
 pageviews:
-  provider:
+  provider: # now only supports 'goatcounter'
 
 # Prefer color scheme setting.
 #
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://gravatar.com/mazdakshojaie
+avatar:
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -147,10 +147,10 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 20
+paginate: 10
 
 # The base URL of your site
-baseurl: "https://hrsh.github.io"
+baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 
