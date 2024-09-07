@@ -75,7 +75,7 @@ analytics:
 
 # Page views settings
 pageviews:
-  provider: https://mazdak.goatcounter.com/
+  provider:
 
 # Prefer color scheme setting.
 #
